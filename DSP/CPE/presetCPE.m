@@ -174,7 +174,7 @@ if exist('method','var')
             if exist('angleInterval','var')
                 CPE.angleInterval = angleInterval;
             elseif ~isfield(CPE,'angleInterval')
-                CPE.angleInterval = pi/4;
+                CPE.angleInterval = pi/2;
             end
         case 'phaseRotation'
             CPE.method = method;

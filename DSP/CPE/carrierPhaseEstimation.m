@@ -15,9 +15,9 @@ if isfield(CPE,'phi')
 end
 
 %% Normalize Constellation to the Signal Power
-if nargin >= 4
-    C = C * sqrt(mean(abs(Srx(1,:)).^2)/mean(abs(C).^2)); 
-end
+% if nargin >= 4
+%     C = C * sqrt(mean(abs(Srx(1,:)).^2)/mean(abs(C).^2)); 
+% end
 
 %% Select and Apply CPE Method
 switch CPE.method

@@ -43,7 +43,8 @@ end
 if isfield(SNR,'noiseSeed')
     rng(SNR.noiseSeed);
 else
-    rng('shuffle');
+    % rng('shuffle');
+    rng(1);
     tmp = rng;
     SNR.noiseSeed = tmp.Seed;
 end

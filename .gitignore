@@ -2,3 +2,12 @@
 *.asv
 TOOLS/plotTools/export_fig/.ignore/ghostscript.txt
 TOOLS/plotTools/export_fig/.ignore/gs_font_path.txt
+.DS_Store
+_examples/.DS_Store
+_examples/AWGN/.DS_Store
+_examples/AWGN/mQAM_SingleCarrier/data_civelli_paper_ccdm_baseline_1D_n=16_0.mat
+_examples/AWGN/mQAM_SingleCarrier/data.mat
+_examples/AWGN/mQAM_SingleCarrier/phase_data.mat
+_examples/AWGN/mQAM_SingleCarrier/received_data_civelli_paper_ccdm_baseline_1D_dual_pol_fiber_15x80km_laser=0.00kHz_n=16_p=-3.00_0.mat
+_examples/AWGN/mQAM_SingleCarrier/test.m
+RX/setSNR.m
